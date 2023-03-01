@@ -1,5 +1,15 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap");
 
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
 body {
   margin: 0;
   font-family: "Montserrat", sans-serif;
@@ -7,7 +17,6 @@ body {
 }
 
 main {
-  border: 1px solid white;
   border-radius: 3px;
   aspect-ratio: 9/16;
   max-width: 375px;
